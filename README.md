@@ -36,12 +36,12 @@ start manage the few state, one state is the array itself, the other state is if
 
 start game page
 <br>
-![](tenzieWin.png)
+![](./pictures/tenzieWin.png)
 <br>
 clicked button page
 <br>
-![](tenzieClicks.png)
+![](./pictures/tenzieClicks.png)
 <br>
 finished game page
 <br>
-![](tenzieWin.png)
+![](./pictures/tenzieWin.png)
