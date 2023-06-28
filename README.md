@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+## tenzieGames
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Luck testing app: tenzie Game
+<br>
+random number from 1 to 6 are given randomly in ten boxes.
+<br>
+Click on the box to hold the number you want
+<br>
+Click on the Roll button to regenerate unwanted number.
+<br>
+The goal is to win the game with ten same number.
+<br>
+What you get is your luck index :)
+<br>
+Link: [tenzieGame](https://prod.d3422cj9r5dusu.amplifyapp.com/)
 
-## Available Scripts
+### Design Process
 
-In the project directory, you can run:
+It is a simple and fun project to build, not much design required.
+<br>
+model the game with an array of numbers, and make the number looks like a button and clickable.
+<br>
+start manage the few state, one state is the array itself, the other state is if you win the game or not.
 
-### `npm start`
+### Features to add in the future
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. show how many roll dice you needed to win(really checking your luck)
+2. implement restart game button while still playing the current game
+3. modify UI
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Library Involved
 
-### `npm test`
+- [Confetti](https://www.npmjs.com/package/react-confetti)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Critical User Jouney
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+start game page
+<br>
+![](tenzieWin.png)
+<br>
+clicked button page
+<br>
+![](tenzieClicks.png)
+<br>
+finished game page
+<br>
+![](tenzieWin.png)
