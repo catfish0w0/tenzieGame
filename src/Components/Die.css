@@ -1,0 +1,12 @@
+.die {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
